@@ -2,7 +2,7 @@ import { getMoveArgs } from "./src/main";
 import getRawBody from 'raw-body';
 
 
-export function move(req: any, resp: any, context: any) {
+export function handler(req: any, resp: any, context: any) {
     if (req.path != '/move') {
         resp.send(JSON.stringify({}));
     }
