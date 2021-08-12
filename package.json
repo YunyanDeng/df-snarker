@@ -26,6 +26,7 @@
   "scripts": {
     "dev": "ts-node server",
     "build": "tsc --project tsconfig.json",
+    "build:aliyun": "./pack.sh aliyun",
     "start": "node build/server.js",
     "prepare": "yarn build"
   }
